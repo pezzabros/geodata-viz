@@ -1,0 +1,34 @@
+body{
+  font-family: 'montserratregular';
+}
+
+.app-container{
+  width: 80%;
+  margin: 20px auto;
+}
+
+.leaflet-container {
+  height: 480px;
+}
+
+.leaflet-control-info{
+  background: #fff;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.leaflet-control-info h3{
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-container {
+  font-family: 'montserratlight';
+}
+
+.rt-thead{
+  font-size: 14px;
+}
+.rt-tbody{
+  font-size: 12px;
+}

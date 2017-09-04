@@ -1,0 +1,20 @@
+{
+  "name": "datumize-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babyparse": "^0.4.6",
+    "express": "^4.15.4",
+    "mysql": "^2.14.1",
+    "sqlite3": "^3.1.9",
+    "test": "^0.6.0"
+  }
+}
